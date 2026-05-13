@@ -1,4 +1,4 @@
-# PDF Text Extractor
+# Event Driven Serverless PDF Text Extraction Pipeline
 
 A serverless PDF text extraction pipeline built on AWS. The system automatically processes PDF files the moment they are uploaded to S3, extracts text page by page using PyMuPDF, and writes the output as a plain text file to a separate S3 bucket. The entire pipeline is event-driven with no persistent compute infrastructure.
 
